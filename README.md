@@ -1,11 +1,28 @@
 # Portfolio Template
 
-https://github.com/shaqdeff/Portfolio-Template/assets/92020713/eed76a82-e59d-440b-a04c-a2dc00a508b7
+https://github.com/ssakib0/sakib-portfolio.git
 
-![portfolio-phone](https://github.com/shaqdeff/Portfolio-Template/assets/92020713/e41ed31c-50e5-40d3-a74f-9c0eb053fe7f)
-![portfolio-phone-3](https://github.com/shaqdeff/Portfolio-Template/assets/92020713/e8c23aa7-ac27-48fc-bf66-50ab00e3a64f)
 
 I created this portfolio to use as my own but ended up doing something else entirely. However, instead of keeping it buried, I decided to put it up here on GitHub as an open-source resource to help individuals to learn, adapt, and create their own portfolios. Feel free to customize and modify the theme and components to suit your personal style and branding preferences.
+
+### Hero section
+<img width="928" alt="image" src="https://github.com/user-attachments/assets/34a4f403-2ad7-4a13-abb7-92f53649bc6b">
+
+### About 
+<img width="924" alt="image" src="https://github.com/user-attachments/assets/5a8f229b-d8f8-48ba-9f83-b38c8bf8726c">
+
+### Technology
+<img width="941" alt="image" src="https://github.com/user-attachments/assets/648a6515-42d6-4154-85e9-f31581bdea60">
+
+### Project
+You can add your real time project just u need to declare in constant file 
+<img width="938" alt="image" src="https://github.com/user-attachments/assets/08e00656-20f1-441f-b5ba-17fba52e7697">
+
+### Experience and Contact Us
+<img width="369" alt="image" src="https://github.com/user-attachments/assets/d8cf659e-6116-4408-b42a-a77cd1869eab">
+
+
+
 
 ## License and Attribution
 
@@ -20,9 +37,6 @@ All projects and experiences included in this portfolio are the result of my own
 - Framer Motion
 - TailwindCSS
 
-## Live Demo
-
-- Click [here](https://shaq-portfolio.netlify.app/) to view the live demo.
 
 ## Getting Started
 
@@ -38,7 +52,7 @@ Make sure you have node `16.0.0` or higher and npm `9.0.0` or higher installed.
 - [Download the ZIP file from this location](https://github.com/shaqdeff/Portfolio-Template/archive/refs/heads/main.zip) or run the following [git](https://git-scm.com/) command to clone the files to your machine:
 
 ```
-git clone https://github.com/shaqdeff/Portfolio-Template.git
+git clone https://github.com/ssakib0/sakib-portfolio.git
 ```
 
 - Once the files are on your machine, open the **Portfolio-Template** folder in [Visual Studio Code](https://code.visualstudio.com/download).
@@ -85,9 +99,8 @@ npm run preview
 
 👤 **Shaquille Ndunda**
 
-- GitHub: [@shaqdeff](https://github.com/shaqdeff)
-- Twitter: [@shaquillendunda](https://twitter.com/shaquillendunda)
-- LinkedIn: [Shaquille Ndunda](https://www.linkedin.com/in/shaquille-ndunda-b13a95107/)
+- GitHub: [@ssakibb0](https://github.com/ssakibb0)
+- LinkedIn: [Shaikh Mohd Sakib](https://www.linkedin.com/in/shaikh-mohd-sakib-b19773228/)
 
 ## Feedback and Contributions
 
@@ -98,3 +111,4 @@ Happy coding and showcasing!
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
