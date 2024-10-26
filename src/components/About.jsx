@@ -37,12 +37,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        Hi, I’m Mohd Sakib Shaikh, a passionate Java Developer with hands-on experience in Spring Boot and backend development. I specialize in building RESTful APIs, microservices, and scalable web applications. Currently, I work as a Backend Developer at IBM, developing software solutions with Java, MySQL, and Git. With a focus on continuous learning and collaboration, I aim to create impactful applications that solve real-world challenges.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

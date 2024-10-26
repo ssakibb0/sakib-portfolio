@@ -124,15 +124,11 @@ const Projects = () => {
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-          These projects demonstrate my expertise with practical examples of
-          some of my work, including brief descriptions and links to code
-          repositories and live demos. They showcase my ability to tackle
-          intricate challenges, adapt to various technologies, and efficiently
-          oversee projects.
+          I have worked on diverse projects, including the development of a Food Waste Management System app aimed at reducing food wastage by connecting restaurants with those in need. Additionally, I built an E-commerce website with user and admin panels, offering a seamless and mobile-friendly shopping experience. These projects showcase my ability to create practical software solutions that address real-world challenges effectively.
         </motion.p>
       </div>
 
-      <motion.div
+      {/* <motion.div
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
@@ -149,7 +145,7 @@ const Projects = () => {
             />
           ))}
         </div>
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 };

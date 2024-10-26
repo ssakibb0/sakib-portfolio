@@ -2,7 +2,8 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { shaq, bwmap, worldmap } from '../assets';
+import { bwmap, worldmap} from '../assets';
+import shaq from "../assets/personal/final.png";
 
 const Hero = () => {
   return (
@@ -42,12 +43,12 @@ const Hero = () => {
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase">
-                Shaquille
+                Sakib
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Lorem ipsum dolor sit amet. <br className="sm:block hidden" />
-              consectetur adipisicing elit deleniti, voluptas.
+              Java Backend Developer <br className="sm:block hidden" />
+              {/* Backend Developer  */}
             </p>
           </div>
           <div
@@ -61,7 +62,7 @@ const Hero = () => {
           className="absolute xs:bottom-10 bottom-32 w-full 
           flex justify-center items-center">
           <a href="#about">
-            <div
+            {/* <div
               className="w-[35px] h-[64px] rounded-3xl border-4 
             border-french border-dim flex
             justify-center items-start p-2">
@@ -76,20 +77,41 @@ const Hero = () => {
                 }}
                 className="w-3 h-3 rounded-full bg-taupe mb-1"
               />
-            </div>
+            </div> */}
           </a>
         </div>
 
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div>
           <img
-            className="absolute bottom-0 ml-[50vw] 
+            className="absolute bottom-0 ml-[10vw] 
             lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
-            sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
+            sm:h-[90vh] md:h-[70vh] xl:h-[80vh] object-cover"
             src={shaq}
-            alt="shaquille"
+            alt="Mohd sakib"
           />
+          
         </div>
+
+{/* <div>
+  <img
+    className="absolute bottom-0 left-1/2 transform -translate-x-1/2 
+               sm:h-[90vh] md:h-[70vh] xl:h-[80vh] object-cover w-full"
+    src={shaq}
+    alt="Mohd sakib"
+  />
+</div> */}
+
+{/* <div>
+  <img
+    className="absolute bottom-0 
+               left-0 md:left-1/2 transform md:-translate-x-1/2 
+               sm:h-[90vh] md:h-[70vh] xl:h-[80vh] object-cover w-auto"
+    src={shaq}
+    alt="Mohd sakib"
+  />
+</div> */}
+        
       </section>
     </>
   );

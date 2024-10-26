@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
           to="/"
-          className="flex items-center gap-2"
+          className="flex items-center h-full "
           onClick={() => {
             setActive('');
             window.scrollTo(0, 0);
@@ -25,16 +25,27 @@ const Navbar = () => {
             alt="logo"
             className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain"
           />
-
+          {/* <div className="flex items-center h-full">
+  <b className='hover:text-taupe text-[29px] font-medium font-mova 
+                uppercase tracking-[3px] cursor-pointer nav-links text-black'>
+    Sakib
+  </b>
+</div> */}
+        <div className="grid h-full place-items-center">
+  <b className='hover:text-taupe text-[29px] font-medium font-mova 
+                uppercase tracking-[3px] cursor-pointer nav-links text-black'>
+    Sakib
+  </b>
+ </div>
+          {/* <b className='  hover:text-taupe text-[25px] font-medium font-mova 
+                uppercase tracking-[4px] cursor-pointer nav-links text-black'>
+                  Sakib
+                </b>  */}
           {/* if you have text you want besides your logo it comes here.
           Otherwise delete this if you don't need it. */}
-          <img
-            src={logotext}
-            alt="logo"
-            className="sm:w-[90px] sm:h-[90px] w-[85px] h-[85px] -ml-[0.6rem] object-contain"
-          />
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
+          
           {navLinks.map((nav) => (
             <li
               key={nav.id}

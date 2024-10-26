@@ -7,6 +7,8 @@ import {
   typescript,
   html,
   css,
+  java,
+  spring,
   reactjs,
   redux,
   tailwind,
@@ -77,8 +79,12 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
+    name: 'Java',
+    icon: java,
+  },
+  {
+    name: 'Spring',
+    icon: spring,
   },
   {
     name: 'React JS',
@@ -92,18 +98,14 @@ const technologies = [
     name: 'Tailwind CSS',
     icon: tailwind,
   },
-  {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
+  // {
+  //   name: 'Node JS',
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: 'Rails',
+  //   icon: rubyrails,
+  // },
   {
     name: 'postgresql',
     icon: postgresql,
@@ -123,33 +125,33 @@ const technologies = [
 ];
 
 const experiences = [
+  // {
+  //   title: 'Front-End Developer',
+  //   company_name: 'Cover Hunt',
+  //   icon: coverhunt,
+  //   iconBg: '#333333',
+  //   date: 'Aug 2021 - Feb 2022',
+  // },
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
-    iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
-  },
-  {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'Web Development Intern',
+    company_name: 'Zebo.ai',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'May 2022 - Aug 2022',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'Web Development Intern',
+    company_name: 'Systenic Solution',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Jun 2023 - Aug 2023',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    title: 'Application Developer',
+    company_name: 'IBM',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Feb 2024 - Present',
   },
 ];
 
